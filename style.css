@@ -1,1 +1,25 @@
+:root{
+  --roxo-forte: #360070;
+  --roxo-escurinho: #58436B;
+  --roxo-megaforte: #240046;
+  --roxo-fraco: #9D4EDD;
+}
 
+.cabecalho{ 
+    background-color: #360070;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 6%;
+}
+
+.menu-item{
+  color: white;
+display: inline;
+padding: 10px;
+margin-top: 20px;
+font-size: 25px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
