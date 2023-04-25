@@ -5,6 +5,11 @@
   --roxo-fraco: #9D4EDD;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .cabecalho{ 
     background-color: #360070;
     display: flex;
@@ -21,5 +26,10 @@ display: inline;
 padding: 10px;
 margin-top: 20px;
 font-size: 25px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.principal{
+  background-color: var(--roxo-fraco);
+  color: #fff;
+
 }
