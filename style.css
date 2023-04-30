@@ -29,7 +29,17 @@ font-size: 25px;
 }
 
 .principal{
-  background-color: var(--roxo-fraco);
+  background-color: var(--azul--fraco--fraco--);
   color: #fff;
+  display: flex;
+  justify-content: center;
+align-items: center;
+}
+.principal_titulo{
+  font-size: 55px;
+}
 
+.principal_imagem{
+padding: 5px;
+width: 250px;
 }
