@@ -1,2 +1,2 @@
-# 2B-programacao
-site desenvolvido na disciplina de programação nas linguagens HTML e CSS
+# Tancredo-2Bnumero-secreto
+Projeto de um site utilizando as linguagens HTML CSS e JavaScript

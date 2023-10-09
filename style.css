@@ -1,45 +1,42 @@
-:root{
-  --roxo-forte: #360070;
-  --roxo-escurinho: #58436B;
-  --roxo-megaforte: #240046;
-  --roxo-fraco: #9D4EDD;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
+:root {
+    --font-family: 'Motoserrat', sans-serif;
+    --bg-color: #00f7ff;
+    --primary-color: #004d85;
+    --cor-segundaria: #E4F1FF;
+    --detalhes: #E4F1FF;
 }
-
-.cabecalho{ 
-    background-color: #360070;
+body{
+    background-color: var(--bg-color);
+    color: var(--primary-color) (var(--cor-segundaria) (var(--detalhes)));
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+h1{
+    font-size: 5em;
 }
 
-.logo{
-    width: 6%;
+h3{
+    font-size: 2em;
+    margin-top: 20px;
 }
 
-.menu-item{
-  color: white;
-display: inline;
-padding: 10px;
-margin-top: 20px;
-font-size: 25px;
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
 }
 
-.principal{
-  background-color: var(--azul--fraco--fraco--);
-  color: #fff;
-  display: flex;
-  justify-content: center;
-align-items: center;
-}
-.principal_titulo{
-  font-size: 55px;
-}
-
-.principal_imagem{
-padding: 5px;
-width: 250px;
+.box{
+    border: 2xp solid var(--primary-color);
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
 }
